@@ -1,6 +1,5 @@
 {{range .Files}}
 
-## {{.Name}}
 {{.Description}}
 
 {{range .Messages}}
@@ -27,10 +26,9 @@
 {{end}}
 
 ## Enums
-
 {{range .Enums}}
 
-## {{.LongName}}
+### {{.LongName}}
 {{.Description}}
 
 | Name | Number | Description |
